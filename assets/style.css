@@ -108,6 +108,9 @@ body {
 .nav-pills .nav-link {
 	color: #000
 }
+.nav-item :hover{
+	cursor: pointer;
+}
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -117,7 +120,6 @@ body {
 	content: "";
 	display: block;
 	padding-bottom: 100%;
-
 }
 .gallery-item {
 	position: absolute;
@@ -125,6 +127,9 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+}
+.item-column :hover {
+	cursor: pointer;
 }
 .mg-prev, .mg-next {
 	width: 30px;
@@ -175,7 +180,6 @@ body {
 	justify-content: space-between;
 	display: flex;
 	padding : 2em 0;
-
 }
 
 .service {
@@ -213,7 +217,6 @@ body {
 }
 .form-container {
 	flex : 2;
-
 }
 form {
 	display: flex;
@@ -353,4 +356,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
